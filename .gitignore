@@ -1,0 +1,12 @@
+# This repository contains approved public product materials only.
+*
+!.gitignore
+!README.md
+!assets/
+!assets/logo.svg
+!assets/qq-group.jpg
+!.github/
+!.github/ISSUE_TEMPLATE/
+!.github/ISSUE_TEMPLATE/bug-report.yml
+!.github/ISSUE_TEMPLATE/feature-request.yml
+!.github/ISSUE_TEMPLATE/config.yml

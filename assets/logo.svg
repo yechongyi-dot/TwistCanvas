@@ -1,0 +1,6 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="TwistCanvas">
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="#262626"/>
+  <path d="M17 19h32l-9 13H15l2-13Z" fill="#09caf5"/>
+  <path d="M47 45H15l9-13h25l-2 13Z" fill="#eee"/>
+  <path d="m24 32 16-13-9 13 9 13-16-13Z" fill="#141414"/>
+</svg>

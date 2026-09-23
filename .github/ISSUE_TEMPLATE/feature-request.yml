@@ -1,0 +1,17 @@
+name: 功能建议
+description: 分享希望改进的创作体验
+title: "[建议] "
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景
+      description: 你在创作什么，遇到了什么不便？
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 希望怎样改进
+    validations:
+      required: true

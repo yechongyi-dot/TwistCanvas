@@ -1,0 +1,32 @@
+name: 问题反馈
+description: 反馈反转画布的界面或使用问题
+title: "[问题] "
+body:
+  - type: markdown
+    attributes:
+      value: "请不要填写密码、API Key、验证码或未公开素材。截图前请隐藏敏感信息。"
+  - type: input
+    id: page
+    attributes:
+      label: 出现问题的页面
+      placeholder: 例如：自由画布 / 视频工作室 / 个人渠道
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 操作步骤与实际现象
+      description: 请描述怎样重现问题，可以添加已隐藏敏感信息的截图。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: 浏览器与设备
+      placeholder: 例如：Chrome / Windows
